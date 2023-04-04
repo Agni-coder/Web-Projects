@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYMEC3Y5cVb3ZcultOA9335dYTsvhLPVnYa9eStHfG3v0vKxVFELGro@kvsg+p" crossorigin="anonymous"/>
+    <title>Title</title>
+    <style>
+        body{background: cornsilk; font-family: 'Oswald', sans-serif;font-size: 15px;font-weight: 400; line-height: 1.5em;}
+        .inner_main_menu {margin: 0 auto; width: 1170px;}
+        .inner_main_menu ul{margin: 0; padding: 80px 0 0; list-style: none;text-align: right;}
+        .inner_main_menu ul li{float: none; display: inline-block;position: relative}
+        .inner_main_menu ul li:nth-child(1){float: left;}
+        .inner_main_menu ul li:nth-child(2){float: left;}
+        .inner_main_menu ul li:nth-child(3){float: left;}
+        .inner_main_menu ul li:nth-child(4){float: left;}
+        .inner_main_menu ul li a{color: #ffffff; font-size: 20px; text-transform: uppercase;text-decoration: none; display: block;padding: 10px 20px;}
+        .inner_main_menu ul li a:hover{color: #072ef1}
+        .inner_main_menu ul li ul{position: absolute; top: 40px; left: -9999999px; width: 200px;background: #262626; padding: 0;}
+        .inner_main_menu ul li:hover ul{left: 0px;}
+        .inner_main_menu ul li ul li{float: left;width: 100%;text-align: left;}
+        .inner_main_menu ul li ul li a{color: #fff;text-transform: capitalize; font-size: 15px;}
+        .inner_main_menu ul li ul li a:hover{background: #ddd; color: #262626;}
+        .inner_main_menu ul li ul li ul{top: 0; left: -999999px;}
+        .inner_main_menu ul li:hover ul li ul{top: 0; left: -999999px;}
+        .inner_main_menu ul li ul li:hover ul{top: 0; left: 200px;}
+        .inner_main_menu ul li:hover a{color: #072ef1}
+        .inner_main_menu ul li:hover ul li a{color: #ffffff}
+        .inner_main_menu ul li ul li a:hover{color: #262626}
+        .inner_main_menu ul li ul li:hover a{background: #ddd; color: #262626;}
+        .inner_main_menu ul li ul li:hover ul li a{background: #262626; color: #fff;}
+        .inner_main_menu ul li ul li ul li a:hover{background: #ddd; color: #262626;}
+        .slicknav_menu {
+            background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+            font-size: 16px;
+            padding: 5px;
+            display: none;
+            position: fixed;
+            right: 0;
+            width: 100%;
+            z-index: 99999;
+        }
+        ul.slicknav_nav {
+            background: #262626 none repeat scroll 0 0;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 80%;
+        }
+        .slicknav_btn {top: 35px;}
+        #main_menu{width: 100%; position: relative;}
+        .logo_area{width: 300px; height: 300px; position: absolute; left: 50%; top: 0; content: ""; margin-left:-150px; text-align: center; }
+        @media only screen and (min-width: 200px) and (max-width: 767px) {
+            .slicknav_menu{display: block;}
+            .inner_main_menu{display: none;}
+            .logo_area {height: auto;left: 0;margin-left: 0;position: relative;top: 0;width: 130px;}
+            .logo_area img{height: auto;width: 100%;}
+        }
+    </style>
+</head>
+<body>
+<div id="main_menu" style="background: black">
+    <div class="logo_area" style="margin-top: 50px">
+        <a href=""><img src="images/logo.png" alt="" height="100px" width="100px"></a>
+    </div>
+    <div class="inner_main_menu">
+        <ul id="menu">
+            <li><a href="">Detail</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Detail</a></li>
+
+            <li><a href="">Contact</a></li>
+            <li><a href="">Map</a></li>
+            <li><a href="">Newsletter</a></li>
+            <li><a href="">Detail</a></li>
+        </ul>
+    </div>
+</div>
+<section id="banner" style="color: white">
+    <div class="container">
+        <h5>NEW ARRIVALS</h5>
+        <p>
+            hhfjdsnkcnsduc n d d dsna ddskjf kajf kkds f ds ff ab,fadsfba,sjf bds,jf dsf dsjf bads,dfb bfkf ebf<br>
+            h hsdkj hfh kjfh ajfh dsj nkljds hjkabeiuf eb cueb cbea cbake bc bkable bflaebc eab aelba la <br>
+            afjkhf lurfh uahf k  jafh fhuefhdadbcnbd c,kab a cjka ,cb,abkjcba, beskjbckjeb jeskeacb ,esabf esk<br>
+             d jfhasdjf hdsaf hsdkj bcldsn bcleuf babal bja bjsea lsjefefhesukfhua keshf ahfa,efalfu ehfeh fa<br>
+              h alksdj hljf hajh fjafhlfekfhajkle fhajef kefglekuf gakefga< fj, GF,FGHJFg.
+        </p><br>
+        <p>
+            hhfjdsnkcnsduc n d d dsna ddskjf kajf kkds f ds ff ab,fadsfba,sjf bds,jf dsf dsjf bads,dfb bfkf ebf<br>
+            h hsdkj hfh kjfh ajfh dsj nkljds hjkabeiuf eb cueb cbea cbake bc bkable bflaebc eab aelba la <br>
+            afjkhf lurfh uahf k  jafh fhuefhdadbcnbd c,kab a cjka ,cb,abkjcba, beskjbckjeb jeskeacb ,esabf esk<br>
+            d jfhasdjf hdsaf hsdkj bcldsn bcleuf babal bja bjsea lsjefefhesukfhua keshf ahfa,efalfu ehfeh fa<br>
+            h alksdj hljf hajh fjafhlfekfhajkle fhajef kefglekuf gakefga< fj, GF,FGHJFg.
+        </p>
+        <button>Subscribe</button>
+    </div>
+</section>
+
+<section id="featured" class="my-5 pb-5">
+    <div class="=container text-center mt-5 py-5">
+        <h3>Our Featured</h3>
+        <hr class="mx-auto">
+        <p class="container">Here you can check out our new Blogs</p>
+    </div>
+    <div class="row mx-auto container-fluid">
+        <div class="product text-center col-lg-3 col-md-6 col-12">
+            <img src="image/plants.jpg" class="img-fluid h-50 w50 mb-3">
+
+            <h5 class="p-name">Headline</h5>
+            <p>fjahdfk fkjdh kjah akjdsf hadskjfh dskjafhaukfhsj f ESH eskb kUhf ekS FbkjB cdb jjbdsulfzbskjajf besuuh fkjh dskjnf keshf eskf hkesfh ekfh sekufh aeskfh eskufuh aeskfheskf esfk</p>
+            <button class="buy-btn">Read More</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-6 col-12">
+            <img src="image/plants.jpg" class="img-fluid h-50 w50 mb-3">
+
+            <h5 class="p-name">Headline</h5>
+            <p>fjahdfk fkjdh kjah akjdsf hadskjfh dskjafhaukfhsj f ESH eskb kUhf ekS FbkjB cdb jjbdsulfzbskjajf besuuh fkjh dskjnf keshf eskf hkesfh ekfh sekufh aeskfh eskufuh aeskfheskf esfk</p>
+            <button class="buy-btn">Read More</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-6 col-12">
+            <img src="image/plants.jpg" class="img-fluid h-50 w50 mb-3">
+
+            <h5 class="p-name">Headline</h5>
+            <p>fjahdfk fkjdh kjah akjdsf hadskjfh dskjafhaukfhsj f ESH eskb kUhf ekS FbkjB cdb jjbdsulfzbskjajf besuuh fkjh dskjnf keshf eskf hkesfh ekfh sekufh aeskfh eskufuh aeskfheskf esfk</p>
+            <button class="buy-btn">Read More</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-6 col-12">
+            <img src="image/plants.jpg" class="img-fluid h-50 w50 mb-3">
+
+            <h5 class="p-name">Headline</h5>
+            <p>fjahdfk fkjdh kjah akjdsf hadskjfh dskjafhaukfhsj f ESH eskb kUhf ekS FbkjB cdb jjbdsulfzbskjajf besuuh fkjh dskjnf keshf eskf hkesfh ekfh sekufh aeskfh eskufuh aeskfheskf esfk</p>
+            <button class="buy-btn">Read More</button>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery.slicknav.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#menu').slicknav();
+    });
+</script>
+
+</body>
+</html>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+            crossOrigin="anonymous"></script>
